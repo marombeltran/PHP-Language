@@ -13,3 +13,9 @@
  * a letter or underscore, followed by any number of letters, numbers, or underscores. 
  * As a regular expression, it would be expressed thus: ^[a-zA-Z_\x80-\xff][a-zA-Z0-9_\x80-\xff]*$
  */
+
+/* -------------------------------------------------------------------------------------------------------------------------
+ * Restriction:
+ * -------------------------------------------------------------------------------------------------------------------------
+ * $this is a special variable that can't be assigned.
+ */
