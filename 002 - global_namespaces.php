@@ -8,7 +8,7 @@
  *
 /* ------------------------------------------------------------------------------------------
  * Global Namespace 
- * -----------------------------------------------------------------------------------------
+ * ------------------------------------------------------------------------------------------
  * Here is an overview of code constructs that go into the global namespace:
  * - functions
  * - classes
@@ -16,9 +16,9 @@
  * - constants (not class constants)
  * - variables defined outside of functions/methods (nested functions are allowed)
  *
-/* ----------------------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------------------
  * Some Rules
- * ---------------------------------------------------------------------------------------
+ * -----------------------------------------------------------------------------------------
  * - Function names use underscores between words, while class names use both the camelCase
  * and PascalCase rules.
  * - PHP will prefix any global symbols of an extension with the name of the extension. 
@@ -30,9 +30,9 @@
  *   functionality.
  *   __get(), __autoload().
  *
-/* ---------------------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------------------
  * Tips
- * ---------------------------------------------------------------------------------------
+ * -----------------------------------------------------------------------------------------
  * In order to write future-proof code, it is recommended that you don't place many 
  * variables, functions or classes in the global namespace. This will prevent naming 
  * conflicts with 3rd party code as well as possible future additions to the language.
